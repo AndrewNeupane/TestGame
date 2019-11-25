@@ -6,6 +6,7 @@ using ItSutra.TestGame.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
 
@@ -20,27 +21,23 @@ namespace ItSutra.TestGame.Matches
             _matchRepository = matchRepository;
         }
 
-        public async Task CreateMatch(CreateMatch input)
+        public async Task<int> CreateMatch(CreateMatch input)
         {
-            await _matchRepository.InsertAsync(ObjectMapper.Map<Match>(input));
+            var newMatch = await _matchRepository.InsertAndGetIdAsync(ObjectMapper.Map<Match>(input));
+            return newMatch;
         }
 
         public async Task CreateMove(MovesData input)
         {
             var match = await _matchRepository.GetAsync(input.MatchId);
-            if (input.PlayerId != match.FirstPlayerId && input.PlayerId != match.SecondPlayerId)
-                throw new AbpValidationException();
-            if(input.Location >= 9)
-                throw new AbpValidationException();
-/*            if(input.Location == match.MatchMoves)
-                throw new AbpValidationException();*/
+            if (input.PlayerId != match.FirstPlayerId && input.PlayerId != match.SecondPlayerId && input.Location >= 9)
+                throw new AbpValidationException("Validation Error", new List<ValidationResult> { new ValidationResult("Player or Move Location Invalid")});
             match.MatchMoves.Add(new MatchMove { PlayerId = input.PlayerId, Location = input.Location });
         }
 
         public async Task EndMatch(EndMatch input)
         {
             var match = await _matchRepository.GetAsync(input.MatchId);
-            match.State = input.State;
             if (input.WinningPlayerId == match.FirstPlayerId)
             {
                 match.FirstPlayer.Win = Convert.ToInt32(match.FirstPlayer.Win) + 1;

@@ -10,7 +10,7 @@ namespace ItSutra.TestGame.Matches
 {
     public interface IMatchService : IApplicationService
     {
-        Task CreateMatch(CreateMatch input);
+        Task<int> CreateMatch(CreateMatch input);
         Task EndMatch(EndMatch input);
         Task<ListResultDto<MatchList>> GetMatchList();
         Task<MatchList> GetMatchById(int id);

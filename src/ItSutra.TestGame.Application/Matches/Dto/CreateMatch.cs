@@ -12,8 +12,6 @@ namespace ItSutra.TestGame.Matches.Dto
     public class CreateMatch
     {
         [Required]
-        public MatchState State { get; set; }
-        [Required]
         public int FirstPlayerId { get; set; }
         [Required]
         public int SecondPlayerId { get; set; }

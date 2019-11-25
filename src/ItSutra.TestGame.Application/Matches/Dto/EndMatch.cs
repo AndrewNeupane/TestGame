@@ -12,8 +12,6 @@ namespace ItSutra.TestGame.Matches.Dto
     public class EndMatch
     {
         [Required]
-        public MatchState State { get; set; }
-        [Required]
         public int WinningPlayerId { get; set; }
         [Required]
         public int MatchId { get; set; }

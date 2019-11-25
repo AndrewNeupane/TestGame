@@ -2,7 +2,6 @@
 using Abp.Collections.Extensions;
 using Abp.Domain.Repositories;
 using Abp.Extensions;
-using Abp.UI;
 using ItSutra.TestGame.Model;
 using ItSutra.TestGame.Players.Dto;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +9,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Abp.Linq.Extensions;
-using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 using Abp.Runtime.Validation;
@@ -32,7 +30,7 @@ namespace ItSutra.TestGame.Players
         {
             if (await _playerRepository.GetAll().AnyAsync(x => x.Email == input.Email))
                 throw new AbpValidationException("Validation Error", new List<ValidationResult> { new ValidationResult("User already exists") });
-            if (Convert.ToInt32(input.DateOfBirth.Year - DateTime.Today.Year) <= 18)
+            if (Convert.ToInt32(DateTime.Today.Year - input.DateOfBirth.Year) <= 18)
                 throw new AbpValidationException();
 
             await _playerRepository.InsertAsync(ObjectMapper.Map<Player>(input));
