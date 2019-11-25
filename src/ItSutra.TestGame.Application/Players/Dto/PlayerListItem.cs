@@ -1,4 +1,5 @@
-﻿using Abp.AutoMapper;
+﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Runtime.Validation;
 using Abp.Threading;
@@ -12,7 +13,7 @@ using System.Text;
 namespace ItSutra.TestGame.Players.Dto
 {
     [AutoMap(typeof(Player))]
-    public class PlayerListItem  
+    public class PlayerListItem  : EntityDto
         //Inherit ICustomValidate
     {
         [Required]

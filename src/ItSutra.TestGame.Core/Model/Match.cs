@@ -25,22 +25,17 @@ namespace ItSutra.TestGame.Model
 
         public Match()
         {
-            if (State == 0)
-            {
+            if (State == MatchState.Open)
                 StartTime = DateTime.Now;
-            }
-            else
-            {
+            if (State == MatchState.Completed)
                 EndTime = DateTime.Now;
-            }
-
             Duration = (EndTime - StartTime);
             MatchMoves = new List<MatchMove>();
         }
         public enum MatchState : byte
         {
-            Open = 0,
-            Completed = 1
+            Open = 1,
+            Completed = 0
         }
     }
 }

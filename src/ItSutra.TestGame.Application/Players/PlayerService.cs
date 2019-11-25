@@ -26,7 +26,7 @@ namespace ItSutra.TestGame.Players
             _playerRepository = playerRepository;
         }
 
-        public async Task CreatePlayer(PlayerListItem input)
+        public async Task CreatePlayer(PlayerData input)
         {
             if (await _playerRepository.GetAll().AnyAsync(x => x.Email == input.Email))
                 throw new AbpValidationException("Validation Error", new List<ValidationResult> { new ValidationResult("User already exists") });

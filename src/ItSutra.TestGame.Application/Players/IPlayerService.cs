@@ -11,7 +11,7 @@ namespace ItSutra.TestGame.Players
     public interface IPlayerService : IApplicationService
     {
         Task<ListResultDto<PlayerListItem>> GetAllPlayer(GetPlayerInput input);
-        Task CreatePlayer(PlayerListItem input);
+        Task CreatePlayer(PlayerData input);
         Task DeletePlayer(int id);
         Task UpdatePlayer(UpdatePlayerList input);
         Task<PlayerListItem> GetPlayerById(int id);

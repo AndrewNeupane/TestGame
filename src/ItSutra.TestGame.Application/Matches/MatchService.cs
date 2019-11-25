@@ -9,7 +9,6 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
-
 namespace ItSutra.TestGame.Matches
 {
     public class MatchService : TestGameAppServiceBase, IMatchService
@@ -24,6 +23,8 @@ namespace ItSutra.TestGame.Matches
         public async Task<int> CreateMatch(CreateMatch input)
         {
             var newMatch = await _matchRepository.InsertAndGetIdAsync(ObjectMapper.Map<Match>(input));
+            var matchState = await _matchRepository.GetAsync(newMatch);
+            matchState.State = Match.MatchState.Open;
             return newMatch;
         }
 
@@ -38,6 +39,7 @@ namespace ItSutra.TestGame.Matches
         public async Task EndMatch(EndMatch input)
         {
             var match = await _matchRepository.GetAsync(input.MatchId);
+            match.State = Match.MatchState.Completed;
             if (input.WinningPlayerId == match.FirstPlayerId)
             {
                 match.FirstPlayer.Win = Convert.ToInt32(match.FirstPlayer.Win) + 1;
