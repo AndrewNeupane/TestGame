@@ -20,5 +20,8 @@ namespace ItSutra.TestGame.Players.Dto
         [Required]
         public string Email { get; set; }
         public DateTime DateOfBirth { get; set; }
+
+
+
     }
 }

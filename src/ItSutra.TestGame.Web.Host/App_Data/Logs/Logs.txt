@@ -4935,3 +4935,363 @@ DEBUG 2019-11-26 03:09:24,392 [5    ] HttpRequestEntityChangeSetReasonProvider -
 DEBUG 2019-11-26 03:09:29,405 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
 DEBUG 2019-11-26 03:09:34,428 [5    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
 DEBUG 2019-11-26 03:09:39,444 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:15:57,938 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-26 04:15:58,451 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-26 04:15:58,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.Web.Host.Startup.TestGameWebHostModule, ItSutra.TestGame.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameWebCoreModule, ItSutra.TestGame.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,485 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameApplicationModule, ItSutra.TestGame.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,485 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameCoreModule, ItSutra.TestGame.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.EntityFrameworkCore.TestGameEntityFrameworkModule, ItSutra.TestGame.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:15:58,494 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-26 04:15:58,577 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:15:58,577 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:15:58,577 [1    ] o.Configuration.LanguageManagementConfig - Converted TestGame (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:15:58,577 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:15:59,043 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ItSutra.TestGame.EntityFrameworkCore.TestGameDbContext, ItSutra.TestGame.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:16:00,308 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-26 04:16:00,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-26 04:16:00,558 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-26 04:16:00,565 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestGame
+DEBUG 2019-11-26 04:16:00,575 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-26 04:16:00,856 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-26 04:16:01,021 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-26 04:16:01,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2019-11-26 04:16:01,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-26 04:16:01,094 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Users.Dto.CreateUserDto
+DEBUG 2019-11-26 04:16:01,095 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Users.Dto.UserDto
+DEBUG 2019-11-26 04:16:01,095 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-26 04:16:01,095 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-26 04:16:01,095 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Roles.Dto.PermissionDto
+DEBUG 2019-11-26 04:16:01,095 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.PlayerData
+DEBUG 2019-11-26 04:16:01,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.PlayerListItem
+DEBUG 2019-11-26 04:16:01,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.ScoreList
+DEBUG 2019-11-26 04:16:01,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-26 04:16:01,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-26 04:16:01,097 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.CreateMatch
+DEBUG 2019-11-26 04:16:01,097 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.EndMatch
+DEBUG 2019-11-26 04:16:01,097 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.MatchList
+DEBUG 2019-11-26 04:16:01,097 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.MovesData
+DEBUG 2019-11-26 04:16:07,241 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:07,531 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:07,596 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:07,714 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:07,762 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:16:08,097 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-11-26 04:16:08,190 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-11-26 04:16:08,315 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host)'
+DEBUG 2019-11-26 04:16:12,326 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:16:13,810 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ItSutra.TestGame.Web.Host.Controllers.HomeController (ItSutra.TestGame.Web.Host).
+INFO  2019-11-26 04:16:15,464 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-26 04:16:15,474 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host) in 1656.2764ms
+INFO  2019-11-26 04:16:15,476 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host)'
+INFO  2019-11-26 04:16:15,503 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-26 04:16:15,508 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7319.5070000000005ms 302 
+INFO  2019-11-26 04:16:15,717 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 210.58110000000002ms 200 text/html;charset=utf-8
+DEBUG 2019-11-26 04:16:17,383 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:16:18,466 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-26 04:16:18,622 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:16:18,968 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 501.295ms 200 application/json;charset=utf-8
+DEBUG 2019-11-26 04:16:22,418 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:27,444 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:32,482 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:37,500 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:42,523 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:16:43,989 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/MatchService/CreateMatch application/json-patch+json 38
+INFO  2019-11-26 04:16:43,997 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-26 04:16:44,000 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-26 04:16:44,010 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:16:44,016 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:16:44,037 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateMatch", controller = "MatchService"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] CreateMatch(ItSutra.TestGame.Matches.Dto.CreateMatch) on controller ItSutra.TestGame.Matches.MatchService (ItSutra.TestGame.Application).
+DEBUG 2019-11-26 04:16:45,128 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ItSutra.TestGame.Model.Match, Id:10
+DEBUG 2019-11-26 04:16:45,303 [15   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ItSutra.TestGame.Model.Match, Id:10
+INFO  2019-11-26 04:16:45,321 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 04:16:45,341 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application) in 1301.9738ms
+INFO  2019-11-26 04:16:45,344 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:16:45,347 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1361.8325ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 04:16:47,569 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:52,580 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:16:57,606 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:17:01,127 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/MatchService/EndMatch application/json-patch+json 34
+INFO  2019-11-26 04:17:01,129 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-26 04:17:01,132 [8    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-26 04:17:01,144 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:17:01,150 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:17:01,178 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "EndMatch", controller = "MatchService"}. Executing controller action with signature System.Threading.Tasks.Task EndMatch(ItSutra.TestGame.Matches.Dto.EndMatch) on controller ItSutra.TestGame.Matches.MatchService (ItSutra.TestGame.Application).
+DEBUG 2019-11-26 04:17:01,211 [14   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Castle.Proxies.MatchProxy, Id:10
+INFO  2019-11-26 04:17:01,225 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 04:17:01,228 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application) in 48.443000000000005ms
+INFO  2019-11-26 04:17:01,231 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:17:01,233 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 107.1958ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 04:17:02,638 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:07,665 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:12,692 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:17,708 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:22,725 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:27,756 [14   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:32,779 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:37,790 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:42,804 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:47,821 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:52,831 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:17:57,858 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:18:02,881 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:18:07,904 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:18:12,915 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:18:17,923 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:18:22,941 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:18:27,956 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:19:28,808 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-26 04:19:28,923 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-26 04:19:28,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.Web.Host.Startup.TestGameWebHostModule, ItSutra.TestGame.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameWebCoreModule, ItSutra.TestGame.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameApplicationModule, ItSutra.TestGame.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameCoreModule, ItSutra.TestGame.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.EntityFrameworkCore.TestGameEntityFrameworkModule, ItSutra.TestGame.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:28,982 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-26 04:19:29,071 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:19:29,071 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:19:29,071 [1    ] o.Configuration.LanguageManagementConfig - Converted TestGame (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:19:29,071 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:19:29,426 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ItSutra.TestGame.EntityFrameworkCore.TestGameDbContext, ItSutra.TestGame.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:19:30,654 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-26 04:19:30,906 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-26 04:19:30,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-26 04:19:30,954 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestGame
+DEBUG 2019-11-26 04:19:30,969 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-26 04:19:31,355 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-26 04:19:31,509 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-26 04:19:31,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2019-11-26 04:19:31,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-26 04:19:31,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Users.Dto.CreateUserDto
+DEBUG 2019-11-26 04:19:31,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Users.Dto.UserDto
+DEBUG 2019-11-26 04:19:31,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-26 04:19:31,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-26 04:19:31,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Roles.Dto.PermissionDto
+DEBUG 2019-11-26 04:19:31,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.PlayerData
+DEBUG 2019-11-26 04:19:31,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.PlayerListItem
+DEBUG 2019-11-26 04:19:31,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.ScoreList
+DEBUG 2019-11-26 04:19:31,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-26 04:19:31,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-26 04:19:31,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.CreateMatch
+DEBUG 2019-11-26 04:19:31,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.EndMatch
+DEBUG 2019-11-26 04:19:31,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.MatchList
+DEBUG 2019-11-26 04:19:31,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.MovesData
+DEBUG 2019-11-26 04:19:38,421 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:19:38,654 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:19:38,712 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:19:38,838 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:19:38,875 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:19:39,167 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-11-26 04:19:39,240 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-11-26 04:19:39,370 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host)'
+DEBUG 2019-11-26 04:19:43,545 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:19:43,944 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ItSutra.TestGame.Web.Host.Controllers.HomeController (ItSutra.TestGame.Web.Host).
+INFO  2019-11-26 04:19:45,612 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-26 04:19:45,659 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host) in 1679.1345000000001ms
+INFO  2019-11-26 04:19:45,667 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host)'
+INFO  2019-11-26 04:19:45,692 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-26 04:19:45,694 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6452.3078000000005ms 302 
+INFO  2019-11-26 04:19:45,959 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 263.82730000000004ms 200 text/html;charset=utf-8
+INFO  2019-11-26 04:19:48,118 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-26 04:19:48,294 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+DEBUG 2019-11-26 04:19:48,564 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:19:48,668 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 550.7871ms 200 application/json;charset=utf-8
+DEBUG 2019-11-26 04:19:53,638 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:19:58,683 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:03,727 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:08,754 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:20:10,904 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/MatchService/EndMatch application/json-patch+json 34
+INFO  2019-11-26 04:20:10,911 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-26 04:20:10,928 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-26 04:20:10,934 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:20:10,938 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:20:10,962 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "EndMatch", controller = "MatchService"}. Executing controller action with signature System.Threading.Tasks.Task EndMatch(ItSutra.TestGame.Matches.Dto.EndMatch) on controller ItSutra.TestGame.Matches.MatchService (ItSutra.TestGame.Application).
+DEBUG 2019-11-26 04:20:12,099 [9    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Castle.Proxies.MatchProxy, Id:10
+DEBUG 2019-11-26 04:20:12,099 [9    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Castle.Proxies.PlayerProxy, Id:2
+DEBUG 2019-11-26 04:20:12,099 [9    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Castle.Proxies.PlayerProxy, Id:6
+INFO  2019-11-26 04:20:12,127 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 04:20:12,147 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application) in 1181.8661ms
+INFO  2019-11-26 04:20:12,149 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:20:12,153 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1249.4172ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 04:20:13,771 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:18,790 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:23,798 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:28,821 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:33,831 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:38,845 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:43,851 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:48,872 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:53,897 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:20:58,910 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:03,930 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:08,940 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:13,958 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:18,980 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:21:20,739 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/MatchService/CreateMatch application/json-patch+json 38
+INFO  2019-11-26 04:21:20,746 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-26 04:21:20,748 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-26 04:21:20,770 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:21:20,776 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:21:20,792 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateMatch", controller = "MatchService"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] CreateMatch(ItSutra.TestGame.Matches.Dto.CreateMatch) on controller ItSutra.TestGame.Matches.MatchService (ItSutra.TestGame.Application).
+DEBUG 2019-11-26 04:21:20,846 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ItSutra.TestGame.Model.Match, Id:11
+DEBUG 2019-11-26 04:21:20,978 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ItSutra.TestGame.Model.Match, Id:11
+INFO  2019-11-26 04:21:20,988 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 04:21:20,992 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application) in 196.9203ms
+INFO  2019-11-26 04:21:20,997 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:21:20,999 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 262.0614ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 04:21:23,991 [13   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:29,013 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:34,029 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:39,049 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:44,060 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:49,077 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:54,091 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:21:59,112 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:22:04,131 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:22:09,172 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:15,493 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-26 04:23:15,623 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-11-26 04:23:15,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.Web.Host.Startup.TestGameWebHostModule, ItSutra.TestGame.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameWebCoreModule, ItSutra.TestGame.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameApplicationModule, ItSutra.TestGame.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.TestGameCoreModule, ItSutra.TestGame.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ItSutra.TestGame.EntityFrameworkCore.TestGameEntityFrameworkModule, ItSutra.TestGame.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:15,657 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-11-26 04:23:15,730 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:23:15,730 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:23:15,731 [1    ] o.Configuration.LanguageManagementConfig - Converted TestGame (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:23:15,731 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-26 04:23:16,152 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ItSutra.TestGame.EntityFrameworkCore.TestGameDbContext, ItSutra.TestGame.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-26 04:23:17,342 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-26 04:23:17,560 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-26 04:23:17,574 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-26 04:23:17,581 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestGame
+DEBUG 2019-11-26 04:23:17,587 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-26 04:23:17,883 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-11-26 04:23:18,096 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-11-26 04:23:18,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2019-11-26 04:23:18,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-11-26 04:23:18,171 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Users.Dto.CreateUserDto
+DEBUG 2019-11-26 04:23:18,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Users.Dto.UserDto
+DEBUG 2019-11-26 04:23:18,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-26 04:23:18,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-26 04:23:18,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Roles.Dto.PermissionDto
+DEBUG 2019-11-26 04:23:18,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.PlayerData
+DEBUG 2019-11-26 04:23:18,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.PlayerListItem
+DEBUG 2019-11-26 04:23:18,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Players.Dto.ScoreList
+DEBUG 2019-11-26 04:23:18,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-11-26 04:23:18,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.MultiTenancy.Dto.TenantDto
+DEBUG 2019-11-26 04:23:18,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.CreateMatch
+DEBUG 2019-11-26 04:23:18,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.EndMatch
+DEBUG 2019-11-26 04:23:18,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.MatchList
+DEBUG 2019-11-26 04:23:18,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ItSutra.TestGame.Matches.Dto.MovesData
+DEBUG 2019-11-26 04:23:24,350 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:24,630 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:24,691 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:24,821 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:24,860 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:23:25,172 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-11-26 04:23:25,244 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-11-26 04:23:25,377 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host)'
+DEBUG 2019-11-26 04:23:30,011 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:23:30,313 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ItSutra.TestGame.Web.Host.Controllers.HomeController (ItSutra.TestGame.Web.Host).
+INFO  2019-11-26 04:23:31,915 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-11-26 04:23:31,925 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host) in 1604.4655ms
+INFO  2019-11-26 04:23:31,928 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Web.Host.Controllers.HomeController.Index (ItSutra.TestGame.Web.Host)'
+INFO  2019-11-26 04:23:31,949 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-11-26 04:23:31,952 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6708.229ms 302 
+INFO  2019-11-26 04:23:32,145 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 195.5088ms 200 text/html;charset=utf-8
+DEBUG 2019-11-26 04:23:35,035 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:23:36,296 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-11-26 04:23:36,415 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:23:36,771 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 472.65360000000004ms 200 application/json;charset=utf-8
+DEBUG 2019-11-26 04:23:40,092 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:45,127 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:50,135 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:23:55,145 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:00,152 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:24:04,142 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/MatchService/CreateMatch application/json-patch+json 38
+INFO  2019-11-26 04:24:04,148 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-26 04:24:04,150 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-26 04:24:04,158 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:24:04,161 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:24:04,197 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateMatch", controller = "MatchService"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] CreateMatch(ItSutra.TestGame.Matches.Dto.CreateMatch) on controller ItSutra.TestGame.Matches.MatchService (ItSutra.TestGame.Application).
+DEBUG 2019-11-26 04:24:05,172 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:05,294 [8    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ItSutra.TestGame.Model.Match, Id:12
+DEBUG 2019-11-26 04:24:05,472 [17   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for ItSutra.TestGame.Model.Match, Id:12
+INFO  2019-11-26 04:24:05,490 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 04:24:05,506 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application) in 1305.363ms
+INFO  2019-11-26 04:24:05,508 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Matches.MatchService.CreateMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:24:05,510 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1369.3932ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 04:24:10,229 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:15,254 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:20,272 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:25,295 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:30,320 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:35,330 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:40,346 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:45,364 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:50,373 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:24:55,397 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:00,433 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:05,452 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:10,468 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:15,487 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:20,535 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:25,574 [18   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:30,599 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:35,611 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:40,629 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-11-26 04:25:43,083 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/MatchService/EndMatch application/json-patch+json 34
+INFO  2019-11-26 04:25:43,096 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-11-26 04:25:43,099 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-11-26 04:25:43,112 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-11-26 04:25:43,116 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:25:43,126 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "EndMatch", controller = "MatchService"}. Executing controller action with signature System.Threading.Tasks.Task EndMatch(ItSutra.TestGame.Matches.Dto.EndMatch) on controller ItSutra.TestGame.Matches.MatchService (ItSutra.TestGame.Application).
+DEBUG 2019-11-26 04:25:43,235 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Castle.Proxies.MatchProxy, Id:12
+DEBUG 2019-11-26 04:25:43,235 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Castle.Proxies.PlayerProxy, Id:3
+DEBUG 2019-11-26 04:25:43,235 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Castle.Proxies.PlayerProxy, Id:6
+INFO  2019-11-26 04:25:43,251 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-11-26 04:25:43,256 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application) in 126.21470000000001ms
+INFO  2019-11-26 04:25:43,259 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ItSutra.TestGame.Matches.MatchService.EndMatch (ItSutra.TestGame.Application)'
+INFO  2019-11-26 04:25:43,263 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 180.86260000000001ms 200 application/json; charset=utf-8
+DEBUG 2019-11-26 04:25:45,646 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:50,664 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:25:55,675 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:26:00,687 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:26:05,702 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:26:10,727 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:26:15,750 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:26:20,787 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:26:25,796 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-11-26 04:26:30,815 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
